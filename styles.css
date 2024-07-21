@@ -120,3 +120,9 @@ body {
     object-fit: cover;
     z-index: 1;
 }
+
+.gallery-item:hover{
+    box-shadow: 
+    -17px -17px 20px 0px #262626,
+    17px 17px 20px 0px #262626;
+}
