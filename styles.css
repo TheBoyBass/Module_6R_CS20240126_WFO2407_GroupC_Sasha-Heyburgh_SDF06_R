@@ -126,3 +126,21 @@ body {
     -17px -17px 20px 0px #262626,
     17px 17px 20px 0px #262626;
 }
+
+/* Dynamic Loading Wheel */
+
+.loader{
+    width: 40px;
+    height: 40px;
+    border: 4px solid hsl(0, 84%, 58%);
+    border-radius: 50%;
+    border-top: 4px solid hsl(0, 18%, 30%);
+    animation:spin 1s linear infinite;
+    margin: 50px auto;
+
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }   
+}
